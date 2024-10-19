@@ -1,0 +1,1 @@
+web: java -jar saamfi-entity/target/saamfi-entity-2.0.1.jar
