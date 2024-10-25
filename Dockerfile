@@ -4,7 +4,7 @@ ENV CATALINA_HOME=/usr/local/tomcat
 ENV DEPLOY_DIR=$CATALINA_HOME/webapps
 
 # Configurar Tomcat para usar puerto 8081
-RUN sed -i 's/port="8080"/port="9091"/g' ${CATALINA_HOME}/conf/server.xml
+RUN sed -i 's/port="9000"/port="9091"/g' ${CATALINA_HOME}/conf/server.xml
 
 WORKDIR /app
 
