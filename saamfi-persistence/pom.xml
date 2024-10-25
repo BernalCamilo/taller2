@@ -25,9 +25,8 @@
 		</dependency>
 		<dependency>
 			<groupId>com.oracle.database.jdbc</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>11.2.0.3</version>
-			<scope>compile</scope>
+			<artifactId>ojdbc8</artifactId>
+			<version>19.8.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>co.edu.icesi.dev.saamfi</groupId>
