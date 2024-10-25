@@ -120,6 +120,7 @@ local.properties
 *.jar
 !*ojdbc6-11.2.0.3.jar
 *.war
+!*app.war
 *.nar
 *.ear
 *.zip
