@@ -8,9 +8,10 @@ ENV CATALINA_HOME=/usr/local/tomcat
 ENV DEPLOY_DIR=$CATALINA_HOME/webapps/
 
 # Copiar el archivo .war al directorio webapps de Tomcat
-COPY saamfi-rest/target/saamfiapi.war $DEPLOY_DIR
+WORKDIR /app
+COPY app.war $DEPLOY_DIR
 
-# Exponer el puerto 9092
+# Exponer el puerto 9091
 EXPOSE 9091
 
 # Ejecutar Tomcat
