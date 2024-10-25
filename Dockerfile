@@ -4,7 +4,7 @@ ENV CATALINA_HOME=/usr/local/tomcat
 ENV DEPLOY_DIR=$CATALINA_HOME/webapps/
 
 WORKDIR /app
-COPY app.war $DEPLOY_DIR
+COPY app.war .
 
 EXPOSE 9091
 
