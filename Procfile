@@ -1,2 +1,2 @@
-web: java -jar app.war
+web: java -jar saamfi.war
 
