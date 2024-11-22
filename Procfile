@@ -1,3 +1,3 @@
-web: java -jar app.war
+web: java -jar saamfiapi.war
 
 
